@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Metalljobs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/tab.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/js/tab.js"></script>
+
+</head>
+<body>
+    <header>
+      <div class="container">	
+		<nav class="navbar main-menubar">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <div class="logo_holder"> 
+		        <a class="navbar-brand" href="#"><img src="assets/images/sitelogo.jpg" alt="logo"></a>
+		      </div>
+		      
+		    </div>
+		    <div class="top-navbar">
+		    	<ul class="nav navbar-nav">
+			        <li><h6>Rufen Sie uns an 0662 48 03 90</h6></li>
+			        <li><a href="#"><h6 style="margin: 0;">office@metalljobs.com<h6></a></li>
+			    </ul>    
+		    </div>
+		    <div class="collapse navbar-collapse menubar" id="myNavbar" >
+
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="#">CANDIDATES</a></li>
+		        <li><a href="#">JOBS</a></li>
+		        <li><a href="#">COMPANIES</a></li>
+		        <li><a href="#">PRODUCTS</a></li>
+		        <li><a href="#">NEWS</a></li>
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Contact us</a></li>
+		            <li><a href="#">General Conditions</a></li>
+		            <li><a href="#">Privacy Policy</a></li>
+		            <li><a href="#">FAQ</a></li>
+		            <li><a href="#">imprint</a></li>
+		          </ul>
+		        </li>
+		        
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	  </div>
+      
+      <div id="myCarousel" class="carousel slide top_banner_slider" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item active">
+		    	<img src="assets/images/Fire-Snow.jpg">
+		      <!-- <video width="100%" autoplay loop muted>
+			  <source src="assets/video/Fire-Snow.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video> -->
+		      <div class="carousel-caption">
+		        <h3>Los Angeles</h3>
+		        <p>LA is always so much fun!</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="chicago.jpg" alt="Chicago">
+		      <div class="carousel-caption">
+		        <h3>Chicago</h3>
+		        <p>Thank you, Chicago!</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="ny.jpg" alt="New York">
+		      <div class="carousel-caption">
+		        <h3>New York</h3>
+		        <p>We love the Big Apple!</p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+	</header>
+	<section id="jobfind_section" class="padding-tb-30">
+		
+		<div class="container">
+		  <div class="jumbotron">
+		    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+		    		<div class="form-group">
+					    <label for="email">Titel</label>
+					    <input type="text" class="form-control" id="text">
+					    <label for="email">Search for keywords eg Web Design</label>
+					</div>
+		    	</div>
+		    	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		    		<div class="form-group">
+						  <label for="sel1">profession</label>
+						  <select class="form-control" id="sel1">
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4</option>
+						  </select>
+						   <label for="email">Search for categories</label>
+						</div>
+		    	    </div>
+		    	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		    		<div class="form-group">
+					    <label for="email">Locations</label>
+					    <input type="text" class="form-control" id="text">
+					</div>
+		    	</div>
+		    		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 findjob_btn_caption">
+		    		<div class="form-group findjob_btn_holder">
+					     <button type="submit" class="btn-primary findjob_btn">find a job</button>
+					     <label for="email">+ Advanced search</label>
+					</div>
+		    	</div>
+		    	<div class="clearfix"></div>
+		    </div>
+		    <div class="clearfix"></div>
+		</div>
+	</section>
+
+	<section id="companylogo_section" class="padding-tb-30">
+		
+		<div class="container">
+		    <div class="row">
+		    	<ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 companylogos_holder">
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 companylogos">
+			    		<a href=""><img src="assets/images/company_logo1.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 companylogos">
+			    		<a href=""><img src="assets/images/company_logo2.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 companylogos">
+			    		<a href=""><img src="assets/images/company_logo3.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 companylogos">
+			    		<a href=""><img src="assets/images/company_logo4.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2 companylogos">
+			    		<a href=""><img src="assets/images/company_logo5.png" alt="image not found"></a>
+			    	</li>
+			    	<!-- <li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/power.jpg" alt="image not found"></a>
+			    	</li> -->
+		    	</ul>
+		    	<div class="clearfix"></div>
+		    </div>
+	</section>
+
+
+
+	<section id="jobscategory_section" class="padding-tb-30">
+		
+		<div class="container">
+		    <div class="row">
+		    	    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 job_cat_holder">
+		    	    	<h2>JOBS BY CATEGORY</h2>
+		    	    	<h6>jobs online -0 added today</h6>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+		    </div>
+		    <div class="row">
+		    	    <div class="col-md-3 col-lg-3 field_cat_holder">
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    </div>
+		    	    <div class="col-md-3 col-lg-3 field_cat_holder">
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    </div>
+		    	    <div class="col-md-3 col-lg-3 field_cat_holder">
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    </div>
+		    	    <div class="col-md-3 col-lg-3 field_cat_holder">
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12 cat_num">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    	<hr>
+		    	    	<div class="col-md-12 col-lg-12">
+		    	    		<h5>Assistenz & Verwaltung</h5>
+		    	    		 <br>
+		    	    		 <h6>(33 freie Stellen)</h6>
+		    	    	</div>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+		    </div>
+	</section>
+
+	<section id="jobsweek_section" class="padding-tb-30" style="background: #F5F6F8;">
+		
+		<div class="container">
+		    <div class="row">
+		    	    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 job_cat_holder">
+		    	    	<h2>OUR TOP JOBS OF THE WEEK</h2>
+		    	    </div>
+		    	    <div class="clearfix"></div>
+		    	    <div class=" col-md-6 col-lg-6">
+		    	    	<a href=""  style="background: #fff,border:1px solid #1E73BE;border-radius: 3px;color:#1E73BE;padding: 5px 10px; ">ALERT ME WITH SIMILAR JOBS</a>
+		    	    	<h3><strong>FORGIVENESS!</strong></h3><h5> <strong>  YOUR SEARCH RETURNED NO RESULTS.</strong></h5>
+							<ul>
+								<li>Please check your search words</li><li> Try to extend your search by general expressions, for example</li><li> Try adjusting the filters you have selected</li>
+		    	    </div>
+		    	    <div class=" col-md-6 col-lg-6">
+		    	    	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+		    </div>
+		    
+	</section>
+
+	<section id="helpfullogo_section" class="padding-tb-30">
+		
+		<div class="container">
+		    <div class="row">
+		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 job_cat_holder">
+		    	    	<h2>HELPFUL TOOLS</h2>
+		    	    </div>
+		    	<ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 companylogos_holder">
+			    	<li class="col-md-3 col-lg-3">
+			    		<a href=""><img src="assets/images/power.jpg" alt="image not found"></a>
+			    		<h6>Gross Net Calculator</h6>
+			    	</li>
+			    	<li class="col-md-3 col-lg-3">
+			    		<a href=""><img src="assets/images/power.jpg" alt="image not found"></a>
+			    		<h6>Business directory of Austrian companies</h6>
+			    	</li>
+			    	<li class="col-md-3 col-lg-3">
+			    		<a href=""><img src="assets/images/power.jpg" alt="image not found"></a>
+			    		<h6>Economic Chamber Homepage</h6>
+			    	</li>
+			    	<li class="col-md-3 col-lg-3">
+			    		<a href=""><img src="assets/images/power.jpg" alt="image not found"></a>
+			    		<h6>calendar</h6>
+			    	</li>
+		    	</ul>
+		    	<div class="clearfix"></div>
+		    </div>
+	</section>
+
+	<section id="blogpost_section" class="padding-tb-30">
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 job_cat_holder">
+		    	    	<h2>CAREER TIPS & NEWS</h2>
+		    	    	<h6>found by us for you ...</h6>
+		    	    </div>
+			<div class="col-md-4 col-lg-4 blogpost">
+				<div class="post_img">
+					<a href=""><img src="assets/images/blogpost1.jpg"></a>
+				</div>
+				<div class="date_comment">
+					<ul>
+						<li>September 12, 2017 </li>
+						<li>0 comment / s</li>
+					</ul>
+				</div>
+				<div class="discription">
+					<p>TARIFFS ON STEEL IMPORTS - AN AGREEMENT IS APPARENTLY OUT</p>
+					<a href="">Continue Reading</a>
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-lg-4 blogpost">
+				<div class="post_img">
+					<a href=""><img src="assets/images/blogpost2.jpg"></a>
+				</div>
+				<div class="date_comment">
+					<ul>
+						<li>September 12, 2017 </li>
+						<li>0 comment / s</li>
+					</ul>
+				</div>
+				<div class="discription">
+					<p>TARIFFS ON STEEL IMPORTS - AN AGREEMENT IS APPARENTLY OUT</p>
+					<a href="">Continue Reading</a>
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-lg-4 blogpost">
+				<div class="post_img">
+					<a href=""><img src="assets/images/blogpost3.jpg"></a>
+				</div>
+				<div class="date_comment">
+					<ul>
+						<li>September 12, 2017 </li>
+						<li>0 comment / s</li>
+					</ul>
+				</div>
+				<div class="discription">
+					<p>TARIFFS ON STEEL IMPORTS - AN AGREEMENT IS APPARENTLY OUT</p>
+					<a href="">Continue Reading</a>
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-lg-4 blogpost">
+				<div class="post_img">
+					<a href=""><img src="assets/images/blogpost4.jpg"></a>
+				</div>
+				<div class="date_comment">
+					<ul>
+						<li>September 12, 2017 </li>
+						<li>0 comment / s</li>
+					</ul>
+				</div>
+				<div class="discription">
+					<p>TARIFFS ON STEEL IMPORTS - AN AGREEMENT IS APPARENTLY OUT</p>
+					<a href="">Continue Reading</a>
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-lg-4 blogpost">
+				<div class="post_img">
+					<a href=""><img src="assets/images/blogpost5.jpg"></a>
+				</div>
+				<div class="date_comment">
+					<ul>
+						<li>September 12, 2017 </li>
+						<li>0 comment / s</li>
+					</ul>
+				</div>
+				<div class="discription">
+					<p>TARIFFS ON STEEL IMPORTS - AN AGREEMENT IS APPARENTLY OUT</p>
+					<a href="">Continue Reading</a>
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-lg-4 blogpost">
+				<div class="post_img">
+					<a href=""><img src="assets/images/blogpost6.jpg"></a>
+				</div>
+				<div class="date_comment">
+					<ul>
+						<li>September 12, 2017 </li>
+						<li>0 comment / s</li>
+					</ul>
+				</div>
+				<div class="discription">
+					<p>TARIFFS ON STEEL IMPORTS - AN AGREEMENT IS APPARENTLY OUT</p>
+					<a href="">Continue Reading</a>
+				</div>
+				
+			</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 job_cat_holder">
+		    		  <div class="slider_holder">
+		    	    	<div class="image_holder">
+		    	    		<img src="assets/images/slider1.png">
+		    	    	</div>
+		    	    	<p>Super simple platform, TOP candidates and very good value for money.</p>
+
+		    	    	<span>brand kitchen</span>
+		    	    	</div>
+		    	    </div>
+			
+		</div>
+	</section>
+
+	<section id="companylogo_section" class="padding-tb-30">
+		
+		<div class="container">
+		    <div class="row">
+		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 job_cat_holder">
+		    	    	<h2>REFERENCE CUSTOMERS</h2>
+		    	    	<h6>who already work with metalljobs.com</h6>
+		    	    </div>
+		    	<ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 companylogos_holder">
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer1.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/sitelogo.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/company_logo1.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer4.jpg" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer5.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/company_logo5.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer7.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer8.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer9.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer10.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer11.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			    		<a href=""><img src="assets/images/refrence_customer12.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="col-md-2 col-lg-2 col-md-offset-5 col-lg-offset-5">
+			    		<a href=""><img src="assets/images/refrence_customer13.png" alt="image not found"></a>
+			    	</li>
+			    	<li class="clearfix">
+			    		
+			    	</li>
+		    	</ul>
+		    	<div class="clearfix"></div>
+
+		    </div>
+	</section>
+
+	<footer>
+		<div class="footer_bg">
+			<div class="container">
+			    <div class="col-md-6 col-lg-6 left_footer">
+				  <h6>    © 2017 metalljobs.com. Alle Rechte vorbehalten. Umsetzung <a class="cs-color" href="http://www.solutionclinic.net">Solution Clinic</a></h6>
+				</div>
+				<div class="col-md-6 col-lg-6 right_footer">
+				  <h6> <a class="cs-color" href="javascript:void(0);">Back to top</a></h6>
+				</div>
+			</div>
+			
+			
+		</div>
+	</footer>
+
+</body>
+</html>

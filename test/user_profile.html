@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Metalljobs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/tab.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <script src="assets/js/tab.js"></script>
+
+</head>
+<body>
+    <header>
+      <div class="container">	
+		<nav class="navbar main-menubar">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <div class="logo_holder"> 
+		        <a class="navbar-brand" href="#"><img src="assets/images/sitelogo.jpg" alt="logo"></a>
+		      </div>
+		      
+		    </div>
+		    <div class="top-navbar">
+		    	<ul class="nav navbar-nav">
+			        <li><h6>Rufen Sie uns an 0662 48 03 90</h6></li>
+			        <li><a href="#"><h6 style="margin: 0;">office@metalljobs.com<h6></a></li>
+			    </ul>    
+		    </div>
+		    <div class="collapse navbar-collapse menubar" id="myNavbar" >
+
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="#">CANDIDATES</a></li>
+		        <li><a href="#">JOBS</a></li>
+		        <li><a href="#">COMPANIES</a></li>
+		        <li><a href="#">PRODUCTS</a></li>
+		        <li><a href="#">NEWS</a></li>
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Contact us</a></li>
+		            <li><a href="#">General Conditions</a></li>
+		            <li><a href="#">Privacy Policy</a></li>
+		            <li><a href="#">FAQ</a></li>
+		            <li><a href="#">imprint</a></li>
+		          </ul>
+		        </li>
+		        
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	  </div>
+      
+      
+	</header>
+
+	<section class="padding-tb-30">
+       <div class="container">
+		<div class="profile_holder">
+             <div class="tab">
+				  <button class="tablinks" onclick="openCity(event, 'profile')" id="defaultOpen">My profile</button>
+				  <button class="tablinks" onclick="openCity(event, 'cv')">My CV</button>
+				  <button class="tablinks" onclick="openCity(event, 'jobs')">Saved Jobs</button>
+				   <button class="tablinks" onclick="openCity(event, 'applications')">My Applications</button>
+				  <button class="tablinks" onclick="openCity(event, 'notifications')">Job Notifications</button>
+				  <button class="tablinks" onclick="openCity(event, 'letter')">CV & motivation letter</button>
+				  <button class="tablinks" onclick="openCity(event, 'password')">Change Password</button>
+				  <button class="tablinks" onclick="openCity(event, 'logout')"> Logout</button>
+				</div>
+
+				<div id="profile" class="tabcontent">
+				<h2>WELCOME SOLUTION</h2>
+				  <h3>MY PROFILE</h3>
+				  <div class="col-md-2 col-lg-2 prof_img_hplder">
+				  	<img src="assets/images/user1.jpeg">
+				  </div>
+				  <div class="col-md-10 col-lg-10">
+				  	<input type="file" name="media_uplode" value="Search">
+				  	<h6>Max. File size is 1MB, minimum dimension: 270x210 - allowed files are .jpg & .png</h6>
+				  </div>
+				  <div class="clearfix"></div>
+				  <div class="col-md-12 col-lg-12">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <label for="usr">Full Name</label>
+                          <input type="text" class="form-control" id="usr">
+                        </div>
+				  </div>
+				  <div class="clearfix"></div>
+				  <div class="col-md-6 col-lg-6 padding-l-zero">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <label for="usr">Job Title</label>
+                          <input type="text" class="form-control" id="usr">
+                        </div>
+                    </div>    
+				  </div>
+
+				  <div class="col-md-6 col-lg-6 padding-r-zero">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <label for="usr">Minimum Salary</label>
+                          <input type="text" class="form-control" id="usr">
+                        </div>
+				  </div>
+
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-6 col-lg-6 padding-l-zero">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <div class="form-group">
+		 						 <label for="sel1">Allow in the search</label>
+		  						 <select class="form-control" id="sel1">
+	                               <option>1</option>
+	                               <option>2</option>
+	                               <option>3</option>
+	                               <option>4</option>
+		                          </select>
+		                  </div>
+                        </div>
+                    </div>    
+				  </div>
+
+				  <div class="col-md-6 col-lg-6 padding-r-zero">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <div class="form-group">
+		 						 <label for="sel1">Career Options</label>
+		  						 <select class="form-control" id="sel1">
+	                               <option>1</option>
+	                               <option>2</option>
+	                               <option>3</option>
+	                               <option>4</option>
+		                          </select>
+		                  </div>
+                        </div>
+				  </div>
+
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-6 col-lg-6 padding-l-zero">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <div class="form-group">
+		 						 <label for="sel1">Status</label>
+		  						 <select class="form-control" id="sel1">
+	                               <option>1</option>
+	                               <option>2</option>
+	                               <option>3</option>
+	                               <option>4</option>
+		                          </select>
+		                  </div>
+                        </div>
+                    </div>    
+				  </div>
+				<div class="clearfix"></div>
+				<div class="col-md-12 col-lg-12">
+				  	<div class="form-group">
+						<div class="form-group">
+                          <label for="usr">Description</label>
+                          <input type="text" class="form-control" id="usr">
+                        </div>
+				  </div>
+				  <div class="clearfix"></div>
+
+				<div id="cv" class="tabcontent">
+				  <h3>Paris</h3>
+				  <p>Paris is the capital of France.</p> 
+				</div>
+
+				<div id="jobs" class="tabcontent">
+				  <h3>Tokyo</h3>
+				  <p>Tokyo is the capital of Japan.</p>
+				</div>
+				<div id="applications" class="tabcontent">
+				  <h3>London</h3>
+				  <p>London is the capital city of England.</p>
+				</div>
+
+				<div id="notifications" class="tabcontent">
+				  <h3>Paris</h3>
+				  <p>Paris is the capital of France.</p> 
+				</div>
+
+				<div id="letter" class="tabcontent">
+				  <h3>Tokyo</h3>
+				  <p>Tokyo is the capital of Japan.</p>
+				</div>
+				<div id="password" class="tabcontent">
+				  <h3>London</h3>
+				  <p>London is the capital city of England.</p>
+				</div>
+
+				<div id="logout" class="tabcontent">
+				  <h3>Paris</h3>
+				  <p>Paris is the capital of France.</p> 
+				</div>
+			
+		</div>
+	   </div>	
+	</section>
+
+	<footer>
+		<div class="footer_bg">
+			<div class="container">
+			    <div class="col-md-6 col-lg-6 left_footer">
+				  <h6>    © 2017 metalljobs.com. Alle Rechte vorbehalten. Umsetzung <a class="cs-color" href="http://www.solutionclinic.net">Solution Clinic</a></h6>
+				</div>
+				<div class="col-md-6 col-lg-6 right_footer">
+				  <h6> <a class="cs-color" href="javascript:void(0);">Back to top</a></h6>
+				</div>
+			</div>
+			
+			
+		</div>
+	</footer>
+
+</body>
+</html>

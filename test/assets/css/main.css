@@ -1,0 +1,162 @@
+
+.padding-tb-30
+{
+   padding: 20px 0;
+}
+img{
+    width: 100%;
+}
+label,h6,.date_comment{color: #aaaaaa !important;}
+h5{
+	color: #424242;
+}
+header{
+	border-bottom: 1px solid #F6F6F6;
+}
+.padding-l-zero{
+	padding-left: 0;
+}
+.padding-r-zero{
+	padding-right: 0;
+}
+/*-----------------------header start------------------------*/
+      
+      /*-----------------------navbar start------------------------*/
+    .main-menubar
+    {
+    	padding: 0 100px;
+    } 
+    .main-menubar .navbar-nav>li>a{
+    	color: #555555 !important;
+    }
+    .logo_holder
+    {
+       max-width: 100px;
+    }  
+    .logo_holder img
+    {
+    	width: 100%;
+    }
+    .top-navbar
+    {
+    	overflow: hidden;
+        padding-left: 90px;
+    }
+    .top-navbar ul li
+    {
+    	padding: 5px 5px 5px 60px;
+    }
+    .top-navbar ul li a
+    {
+    	padding: 5px;
+    }
+    .menubar
+    {
+        float: right;
+    }
+
+
+      /*-----------------------navbar end------------------------*/
+
+
+/*-----------------------header end------------------------*/
+
+
+.companylogos_holder 
+{
+      list-style: none;
+}
+.home_slider{
+	height: 400px;
+	overflow: hidden;
+
+}
+.slide1{
+	background: url(assets/images/Fire-Snow.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.job_cat_holder{
+	text-align: center;
+}
+.field_cat_holder{
+	text-align: center;
+	background-color: #FBFBFB;
+	border: 1px solid #F1F1F1
+}
+.field_cat_holder h5{
+    font-weight: bold;
+}
+.cat_num{
+	border-bottom: 1px solid #F1F1F1
+}
+#jobsweek_section{
+	background: #F5F6F8;
+}
+.footer_bg{
+	background: #E7E8E7;
+	padding: 10px 0;
+}
+.right_footer{
+	text-align: right;
+}
+.post_img{
+	height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slider_holder .image_holder{
+	border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.slider_holder .image_holder img
+{
+	border-radius: 50%;
+}
+#helpfullogo_section{
+	border-bottom: 2px solid #3677AD;
+
+}
+.blogpost{padding: 15px;}
+.discription p{
+	font-weight: bold;
+}
+.companylogos{
+     height: 80px;
+     display: table;
+}
+.companylogos a{
+
+display: table-cell;
+vertical-align: middle;
+}
+.findjob_btn{
+	padding: 10px 30px;
+    border: none;
+}
+.findjob_btn_caption{
+
+}
+.top_banner_slider{
+	height: 400px;
+	overflow: hidden;
+}
+.findjob_btn_holder{
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+.field_cat_holder{
+	border-left: 20px solid white;
+}
+.date_comment ul{
+	padding: 20px 0;
+}
+.date_comment li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+
+}
